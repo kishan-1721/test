@@ -3,7 +3,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 import sys
-
+import numpy as np
 # function to get the html source text of the medium article
 def get_page():
     global url
